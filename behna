@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To My Pyaari Behna</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(#ffe5ec, #fcd5ce);
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #4a1c40;
+    }
+    header {
+      background-color: #ffb3c6;
+      padding: 30px 20px;
+      font-size: 2em;
+      font-weight: bold;
+      color: #fff;
+    }
+    .section {
+      margin: 40px auto;
+      width: 90%;
+      max-width: 800px;
+      background: #fff0f3;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 15px;
+      border-radius: 15px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    }
+    footer {
+      background-color: #ffb3c6;
+      padding: 10px;
+      color: #fff;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>To My Pyaari Behna 💖</header>
+
+  <div class="section">
+    <h2>Happy Raksha Bandhan, Vranda!</h2>
+    <p>
+      You’re not just my best friend, you're my chosen sister — the one who stood by me through everything. This Raksha Bandhan, I want you to know that our bond is forever. Through every up and down, distance and time, I promise you — Atharva will never leave Vranda. Ever.
+    </p>
+  </div>
+
+  <div class="section">
+    <h3>Why You're My Forever Sister:</h3>
+    <ul style="text-align: left; max-width: 600px; margin: 0 auto;">
+      <li>You always understand me without words.</li>
+      <li>Your presence feels like home.</li>
+      <li>You stood by me when no one else did.</li>
+      <li>You are the sister I got to choose.</li>
+      <li>This bond is unbreakable — no matter what.</li>
+    </ul>
+  </div>
+
+  <div class="section gallery">
+    <h3>Our Sweetest Memories 📸</h3>
+    <img src="raksha_bandhan_puzzle_photo.jpg" alt="Atharva and Vranda" />
+  </div>
+
+  <div class="section">
+    <h3>Special Puzzle Surprise 🎁</h3>
+    <p>
+      I made a little puzzle just for you. Complete it to reveal something special ❤️<br />
+      <a href="https://www.jigsawplanet.com/?rc=play&pid=10fdb6f016de" target="_blank">Click here to play the puzzle</a>
+    </p>
+  </div>
+
+  <footer>Made with ❤️ by Atharva for Vranda | Raksha Bandhan 2025</footer>
+</body>
+</html>
