@@ -56,6 +56,15 @@
       text-decoration: none;
       color: #e91e63;
       font-weight: bold;
+      cursor: pointer;
+    }
+
+    .second-image {
+      display: none;
+    }
+
+    .visible {
+      display: block;
     }
 
     footer {
@@ -95,8 +104,12 @@
   </div>
 
   <div class="extra-link">
-    ❤️ Click here to view a special Raksha Bandhan illustration of us:<br>
-    <a href="page2.html">View Rakhi Memory Page</a>
+    ❤️ <a onclick="document.getElementById('secondImage').classList.add('visible');">Click here to view a special Raksha Bandhan illustration of us</a>
+  </div>
+
+  <div id="secondImage" class="image second-image">
+    <p><strong>"No matter how far life takes us, this bond will always stay close to my heart. Thank you for being my sister by choice, by heart, and by soul. Happy Raksha Bandhan Vranda!" ❤️</strong></p>
+    <img src="https://raw.githubusercontent.com/Atharva1608-code/To-my-pyaari-Behna/main/2%20image.jpg" alt="Second Raksha Bandhan Poster">
   </div>
 
   <footer>
@@ -105,6 +118,7 @@
   </footer>
 </body>
 </html>
+
 
 
 
